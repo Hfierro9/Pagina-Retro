@@ -1,0 +1,192 @@
+body{
+    background-color: #fce4b4;
+    @font-face {
+        font-family: 'Open Sans';
+        src: url('fuente/kongtext.ttf') format('truetype');
+        font-style: normal;
+        font-weight: normal;
+      }
+}
+
+/* Todo el HTML */
+
+html{
+    margin-top: 2%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+/* Cuadro negro FERREMAX */
+
+.ferre{
+    display: flex;
+}
+
+/* Hipervinculos Container */
+
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin-left: 10%;
+}
+
+/* Hipervinculos */
+
+.head li{
+    list-style: none;
+    padding-left: 20px;
+}
+
+/* Icnono sesion */
+
+.nes-avatar{
+    margin-left: 15px;
+}
+
+/* Iluminiacion */
+
+.cuadrado1, .cuadrado2, .cuadrado3, .cuadrado4{
+    margin-top: 2%;
+}
+
+.nes-container.with-title > .title {
+    display: table;
+    padding: 0 0.5rem;
+    margin: -1.8rem 0 1rem;
+    font-size: 1rem;
+    background-color: rgb(255, 251, 0);
+}
+
+.slots{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.slot1, .slot2, .slot3, .slot4, .slot5, .slot6, .slot7, .slot8{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-self: center;
+}
+
+.abajo{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-self: center;
+    margin-top: 10%;
+}
+
+.nes-container.is-dark.iluminacion, .nes-container.is-dark.adhesivos{
+    position: relative;
+    margin: 4px;
+    color: rgb(255, 255, 255);
+    background-image: url(https://media.istockphoto.com/vectors/pixel-art-dithering-gradient-color-vector-id1279840158?k=20&m=1279840158&s=170667a&w=0&h=EBfPKQC8Zc5a1r5DuTmCjd227b1M_baoCnwiiHeu-SM=);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    border-color: rgb(71, 58, 189);
+}
+
+.nes-container.is-dark.herramientas, .nes-container.is-dark.tuberias{
+    position: relative;
+    margin: 4px;
+    color: rgb(255, 255, 255);
+    background-image: url(https://media.istockphoto.com/vectors/pixel-art-dithering-gradient-color-vector-id1279840017?k=20&m=1279840017&s=170667a&w=0&h=Qd1wdF_vf3_MtOpY09-ADtwbGeMV6FP1t41JAiALMAg=);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    border-color: rgb(71, 58, 189);
+}
+
+.slot1 p, .slot2 p, .slot3 p, .slot4 p, .slot5 p, .slot6 p, .slot7 p, .slot8 p{
+    margin-top: 5%;
+}
+
+/* Footer */
+
+.pie{
+    background-color: black;
+}
+
+.redes{
+    display: grid;
+    justify-content: center;
+
+}
+
+.caja{
+    display: flex;
+    margin-bottom: 2%;
+}
+
+.caja p{
+    margin-top: 4%;
+    width: 85%;
+}
+
+.caja img{
+    width: 20%;
+    height: 10%;
+    margin-top: 2%;
+}
+
+.redes{
+    margin-top: 3%;
+}
+
+.nosotros{
+    margin-left: 0%;
+    width:400px;
+    height:400px;
+    display:grid;
+    grid-template-columns: 590px 590px;
+    grid-row: auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-bottom: 2%;
+}
+
+.grupo{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.destacados{
+    font-size: 39px;
+}
+
+.nosotros{
+    font-display: flex;
+}
+
+/* ? SHOPPING CART */
+.shopping-cart-items {
+    padding: 20px 0px;
+  }
+  
+  .shopping-cart-header {
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .shopping-cart-image {
+    max-width: 80px;
+    border-radius: 20px;
+  }
+  
+  .shopping-cart-quantity-input {
+    max-width: 45px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #eee;
+    padding: 5px;
+  }
+  
+  .shopping-cart-total {
+    min-height: 96px;
+  }
