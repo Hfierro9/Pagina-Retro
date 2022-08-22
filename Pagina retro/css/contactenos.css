@@ -196,6 +196,14 @@ html{
 .redes{
     margin-top: 3%;
 }
+  
+.box{
+    display: flex;
+}
+
+.box{
+    display: flex;
+}
 
 .nosotros{
     margin-left: 0%;
@@ -213,6 +221,12 @@ html{
     text-align: center;
     margin-top: 5%;
     margin-bottom: 5%;
-    font-size: 39px;
 }
   
+.imgRedonda {
+    border-radius:150px;
+}
+
+.iconos{
+    margin-left: 6%;
+}

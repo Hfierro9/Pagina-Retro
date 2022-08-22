@@ -215,3 +215,10 @@ html{
     margin-bottom: 5%;
 }
   
+.imgRedonda {
+    border-radius:150px;
+}
+
+.iconos{
+    margin-left: 6%;
+}

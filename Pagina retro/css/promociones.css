@@ -86,18 +86,6 @@ html{
     margin-top: 3%;
 }
 
-.nosotros{
-    margin-left: 0%;
-    width:400px;
-    height:400px;
-    display:grid;
-    grid-template-columns: 590px 590px;
-    grid-row: auto auto;
-    grid-column-gap: 30px;
-    grid-row-gap: 30px;
-    margin-bottom: 2%;
-}
-
 .grupo{
     text-align: center;
     margin-top: 5%;
@@ -194,4 +182,34 @@ html{
 
 .slot2 p{
     color: azure;
+}
+
+.box{
+    display: flex;
+}
+
+.nosotros{
+    margin-left: 0%;
+    width:400px;
+    height:400px;
+    display:grid;
+    grid-template-columns: 590px 590px;
+    grid-row: auto auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    margin-bottom: 2%;
+}
+
+.grupo{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+  
+.imgRedonda {
+    border-radius:150px;
+}
+
+.iconos{
+    margin-left: 6%;
 }
